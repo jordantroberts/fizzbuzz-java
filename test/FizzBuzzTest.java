@@ -11,5 +11,11 @@ public class FizzBuzzTest {
         assertEquals("Fizzbuzz", result);
     }
 
+    @Test
+    public void test2(){
+        FizzBuzz test = new FizzBuzz();
+        String result2 = test.isDivisibleBy(5);
+        assertEquals("Buzz", result2);
+    }
 
 }
