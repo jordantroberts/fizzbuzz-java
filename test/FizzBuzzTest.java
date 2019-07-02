@@ -18,4 +18,11 @@ public class FizzBuzzTest {
         assertEquals("Buzz", result2);
     }
 
+    @Test
+    public void test3(){
+        FizzBuzz test = new FizzBuzz();
+        String result3 = test.isDivisibleBy(3);
+        assertEquals("Fizz", result3);
+    }
+
 }
